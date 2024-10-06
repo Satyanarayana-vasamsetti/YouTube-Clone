@@ -1,0 +1,114 @@
+body{
+padding-top: 80px;
+padding-left: 120px;
+background-color: rgb(250, 250, 250);
+}
+.header{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(212, 212, 212);
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.left-section{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    width: 200px;
+}
+.middle-section{
+    display: flex;
+    flex-direction: row;
+}
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+.hamburger-menu{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.youtube-logo{
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 90px;
+    height: 20px;
+}
+.search-bar{
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border-color: rgb(190, 190, 190) ;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+    outline: none;
+}
+.search{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 70px;
+    background-color: rgb(234, 234, 234);
+}
+.search-element{
+    width: 25px;
+    height: 25px;
+}
+.mic{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.upload-png,.youtube-apps,.notification-icon{
+    cursor: pointer;
+}
+.notification-icon-div{
+    position: relative;
+}
+.notification-icon-div span{
+    position: absolute;
+    left:11px;
+    top: 2px;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px; 
+}
